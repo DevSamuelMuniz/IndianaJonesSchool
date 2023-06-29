@@ -1,0 +1,89 @@
+body{
+    font-family: Arial;
+    background-image: linear-gradient(45deg, rgb(231, 159, 24), rgb(236, 195, 105), orange);
+  }
+  
+.img{
+    position: absolute;
+    top: 19%;
+    left: 9%;
+    transform: translate(-50%, -50%);  
+}
+
+.logo{
+    width: 350px;
+    height: auto;
+}
+
+.container{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 70px;
+  border-radius: 15px;
+  color: white;
+  
+}
+
+.titulo{
+  position: absolute;
+  color: #000000;
+  font-size: 40px;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-weight: bold ;
+}
+
+.cursos{
+  position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.curso{
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+ 
+}
+
+.dados{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.sair {
+    background-color: dodgerblue;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    padding-inline: 30%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.butsair{
+    text-align: center;    
+}
+  
